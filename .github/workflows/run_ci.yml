@@ -30,7 +30,7 @@ jobs:
                 test: test
                 main: prod
         secrets:
-            aws_role_to_assume: ${{ secrets.aws_role_to_assume }}
-            aws_account_id: ${{ secrets.aws_account_id }}
+            aws_access_key_id: ${{ secrets.aws_access_key_id }}
+            aws_secret_access_key: ${{ secrets.aws_secret_access_key }}
             aws_region: ${{ secrets.aws_region }}
     
